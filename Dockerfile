@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:8-jdk
 VOLUME /tmp
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' > /etc/timezone
